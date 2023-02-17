@@ -1,0 +1,34 @@
+########################################
+
+RUNNING EM-SEQ PIPELINE
+
+#######################################
+
+
+# The executable runs by using variable paths of folders and files to be used at different stages:
+
+# Commandline to execute the Pipeline:
+
+bash EMSEQ_PIPELINE_15_02_2023.sh
+
+Enter Deliverables Directory PATH: "/Path to Directory /colddata/DFCI_ANALYSIS/to be stored or transferred"
+
+Enter Deliverables Directory PATH at scratch: /Path to scratch Directory /where the pipeline is to be run
+
+Enter SymbolicLink to fastq files Directory PATH: /Path to Directory containing Raw Fastq Files (Symbolic Link)
+
+Enter Slurm Partition: MidP OR HighP: (Enter the Node/Partition to be used for execution)
+
+Please look into the read names and provide the extension after sample name Example: _R1_001.fastq.gz: Provide Prefix for R1 reads in order to extract the name of the sample
+
+Please look into the read names and provide the extension after sample name Example: _R2_001.fastq.gz: Provide Prefix for R2 reads in order to extract the name of the sample
+
+Enter reference file: /storage/scratch2/DFCI_EMSEQ_RUN/DATABASE/grch38_core+bs_controls.fa (Path to Reference Index directory and its file)
+
+Enter the directory containing all the containers: /Path to Directory /emseq-tools (emseq tools directory contains the containers to be executed)
+
+
+#############################################
+---------------------------------------------
+
+
